@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724575372088A50800C7B94E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 724575362088A50800C7B94E /* AppDelegate.m */; };
+		7245753A2088A50800C7B94E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724575392088A50800C7B94E /* ViewController.m */; };
+		7245753D2088A50800C7B94E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7245753B2088A50800C7B94E /* Main.storyboard */; };
+		7245753F2088A50B00C7B94E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7245753E2088A50B00C7B94E /* Assets.xcassets */; };
+		724575422088A50B00C7B94E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 724575402088A50B00C7B94E /* LaunchScreen.storyboard */; };
+		724575452088A50B00C7B94E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 724575442088A50B00C7B94E /* main.m */; };
+		7245754F2088A50B00C7B94E /* WisdomHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7245754E2088A50B00C7B94E /* WisdomHomeTests.m */; };
+		7245755A2088A50B00C7B94E /* WisdomHomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 724575592088A50B00C7B94E /* WisdomHomeUITests.m */; };
+		7245756A2088A56000C7B94E /* WisHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 724575692088A56000C7B94E /* WisHomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7245754B2088A50B00C7B94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7245752A2088A50800C7B94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724575312088A50800C7B94E;
+			remoteInfo = WisdomHome;
+		};
+		724575562088A50B00C7B94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7245752A2088A50800C7B94E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 724575312088A50800C7B94E;
+			remoteInfo = WisdomHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		724575322088A50800C7B94E /* WisdomHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisdomHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724575352088A50800C7B94E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		724575362088A50800C7B94E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		724575382088A50800C7B94E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		724575392088A50800C7B94E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7245753C2088A50800C7B94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7245753E2088A50B00C7B94E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724575412088A50B00C7B94E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		724575432088A50B00C7B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724575442088A50B00C7B94E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7245754A2088A50B00C7B94E /* WisdomHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisdomHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7245754E2088A50B00C7B94E /* WisdomHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisdomHomeTests.m; sourceTree = "<group>"; };
+		724575502088A50B00C7B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724575552088A50B00C7B94E /* WisdomHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisdomHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		724575592088A50B00C7B94E /* WisdomHomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisdomHomeUITests.m; sourceTree = "<group>"; };
+		7245755B2088A50B00C7B94E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		724575682088A56000C7B94E /* WisHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WisHomeViewController.h; sourceTree = "<group>"; };
+		724575692088A56000C7B94E /* WisHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisHomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7245752F2088A50800C7B94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724575472088A50B00C7B94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724575522088A50B00C7B94E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		724575292088A50800C7B94E = {
+			isa = PBXGroup;
+			children = (
+				724575342088A50800C7B94E /* WisdomHome */,
+				7245754D2088A50B00C7B94E /* WisdomHomeTests */,
+				724575582088A50B00C7B94E /* WisdomHomeUITests */,
+				724575332088A50800C7B94E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		724575332088A50800C7B94E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724575322088A50800C7B94E /* WisdomHome.app */,
+				7245754A2088A50B00C7B94E /* WisdomHomeTests.xctest */,
+				724575552088A50B00C7B94E /* WisdomHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724575342088A50800C7B94E /* WisdomHome */ = {
+			isa = PBXGroup;
+			children = (
+				724575672088A53100C7B94E /* WisdomHome */,
+				724575352088A50800C7B94E /* AppDelegate.h */,
+				724575362088A50800C7B94E /* AppDelegate.m */,
+				724575382088A50800C7B94E /* ViewController.h */,
+				724575392088A50800C7B94E /* ViewController.m */,
+				7245753B2088A50800C7B94E /* Main.storyboard */,
+				7245753E2088A50B00C7B94E /* Assets.xcassets */,
+				724575402088A50B00C7B94E /* LaunchScreen.storyboard */,
+				724575432088A50B00C7B94E /* Info.plist */,
+				724575442088A50B00C7B94E /* main.m */,
+			);
+			path = WisdomHome;
+			sourceTree = "<group>";
+		};
+		7245754D2088A50B00C7B94E /* WisdomHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7245754E2088A50B00C7B94E /* WisdomHomeTests.m */,
+				724575502088A50B00C7B94E /* Info.plist */,
+			);
+			path = WisdomHomeTests;
+			sourceTree = "<group>";
+		};
+		724575582088A50B00C7B94E /* WisdomHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				724575592088A50B00C7B94E /* WisdomHomeUITests.m */,
+				7245755B2088A50B00C7B94E /* Info.plist */,
+			);
+			path = WisdomHomeUITests;
+			sourceTree = "<group>";
+		};
+		724575672088A53100C7B94E /* WisdomHome */ = {
+			isa = PBXGroup;
+			children = (
+				724575682088A56000C7B94E /* WisHomeViewController.h */,
+				724575692088A56000C7B94E /* WisHomeViewController.m */,
+			);
+			path = WisdomHome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724575312088A50800C7B94E /* WisdomHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7245755E2088A50B00C7B94E /* Build configuration list for PBXNativeTarget "WisdomHome" */;
+			buildPhases = (
+				7245752E2088A50800C7B94E /* Sources */,
+				7245752F2088A50800C7B94E /* Frameworks */,
+				724575302088A50800C7B94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WisdomHome;
+			productName = WisdomHome;
+			productReference = 724575322088A50800C7B94E /* WisdomHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		724575492088A50B00C7B94E /* WisdomHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724575612088A50B00C7B94E /* Build configuration list for PBXNativeTarget "WisdomHomeTests" */;
+			buildPhases = (
+				724575462088A50B00C7B94E /* Sources */,
+				724575472088A50B00C7B94E /* Frameworks */,
+				724575482088A50B00C7B94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7245754C2088A50B00C7B94E /* PBXTargetDependency */,
+			);
+			name = WisdomHomeTests;
+			productName = WisdomHomeTests;
+			productReference = 7245754A2088A50B00C7B94E /* WisdomHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		724575542088A50B00C7B94E /* WisdomHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724575642088A50B00C7B94E /* Build configuration list for PBXNativeTarget "WisdomHomeUITests" */;
+			buildPhases = (
+				724575512088A50B00C7B94E /* Sources */,
+				724575522088A50B00C7B94E /* Frameworks */,
+				724575532088A50B00C7B94E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				724575572088A50B00C7B94E /* PBXTargetDependency */,
+			);
+			name = WisdomHomeUITests;
+			productName = WisdomHomeUITests;
+			productReference = 724575552088A50B00C7B94E /* WisdomHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7245752A2088A50800C7B94E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王水平";
+				TargetAttributes = {
+					724575312088A50800C7B94E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					724575492088A50B00C7B94E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 724575312088A50800C7B94E;
+					};
+					724575542088A50B00C7B94E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 724575312088A50800C7B94E;
+					};
+				};
+			};
+			buildConfigurationList = 7245752D2088A50800C7B94E /* Build configuration list for PBXProject "WisdomHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 724575292088A50800C7B94E;
+			productRefGroup = 724575332088A50800C7B94E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724575312088A50800C7B94E /* WisdomHome */,
+				724575492088A50B00C7B94E /* WisdomHomeTests */,
+				724575542088A50B00C7B94E /* WisdomHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		724575302088A50800C7B94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724575422088A50B00C7B94E /* LaunchScreen.storyboard in Resources */,
+				7245753F2088A50B00C7B94E /* Assets.xcassets in Resources */,
+				7245753D2088A50800C7B94E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724575482088A50B00C7B94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724575532088A50B00C7B94E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7245752E2088A50800C7B94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7245753A2088A50800C7B94E /* ViewController.m in Sources */,
+				7245756A2088A56000C7B94E /* WisHomeViewController.m in Sources */,
+				724575452088A50B00C7B94E /* main.m in Sources */,
+				724575372088A50800C7B94E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724575462088A50B00C7B94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7245754F2088A50B00C7B94E /* WisdomHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724575512088A50B00C7B94E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7245755A2088A50B00C7B94E /* WisdomHomeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7245754C2088A50B00C7B94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724575312088A50800C7B94E /* WisdomHome */;
+			targetProxy = 7245754B2088A50B00C7B94E /* PBXContainerItemProxy */;
+		};
+		724575572088A50B00C7B94E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 724575312088A50800C7B94E /* WisdomHome */;
+			targetProxy = 724575562088A50B00C7B94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7245753B2088A50800C7B94E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7245753C2088A50800C7B94E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		724575402088A50B00C7B94E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				724575412088A50B00C7B94E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7245755C2088A50B00C7B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7245755D2088A50B00C7B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7245755F2088A50B00C7B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = WisdomHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.WisdomHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		724575602088A50B00C7B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = WisdomHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.WisdomHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		724575622088A50B00C7B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = WisdomHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.WisdomHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisdomHome.app/WisdomHome";
+			};
+			name = Debug;
+		};
+		724575632088A50B00C7B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = WisdomHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.WisdomHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WisdomHome.app/WisdomHome";
+			};
+			name = Release;
+		};
+		724575652088A50B00C7B94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = WisdomHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.WisdomHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WisdomHome;
+			};
+			name = Debug;
+		};
+		724575662088A50B00C7B94E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4DSTTV3BM;
+				INFOPLIST_FILE = WisdomHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shuiping.WisdomHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WisdomHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7245752D2088A50800C7B94E /* Build configuration list for PBXProject "WisdomHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7245755C2088A50B00C7B94E /* Debug */,
+				7245755D2088A50B00C7B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7245755E2088A50B00C7B94E /* Build configuration list for PBXNativeTarget "WisdomHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7245755F2088A50B00C7B94E /* Debug */,
+				724575602088A50B00C7B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724575612088A50B00C7B94E /* Build configuration list for PBXNativeTarget "WisdomHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724575622088A50B00C7B94E /* Debug */,
+				724575632088A50B00C7B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724575642088A50B00C7B94E /* Build configuration list for PBXNativeTarget "WisdomHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724575652088A50B00C7B94E /* Debug */,
+				724575662088A50B00C7B94E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7245752A2088A50800C7B94E /* Project object */;
+}
